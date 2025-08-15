@@ -33,5 +33,9 @@
     "editor.suggest.showVariables": false,
     "C_Cpp.dimInactiveRegions": false,
     "typescript.tsserver.web.typeAcquisition.enabled": false,
-    "C_Cpp.copilotHover": "disabled"
+    "C_Cpp.copilotHover": "disabled",
+    "files.associations": {
+        "math.h": "c",
+        "stdlib.h": "c"
+    }
 }

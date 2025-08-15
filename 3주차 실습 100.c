@@ -24,14 +24,10 @@ int main(){
 
     int mode = Process(word1, word2);
 
-    if (mode==1) {
-        for(int i=0;i<strlen(word2);i++) {
-            printf("%c",word2[i]);
-        }
-    }
-    else {for(int i=0;i<strlen(word1);i++) {
-            printf("%c",word1[i]);
-        }
-    }
+    if (mode==1) printf("%s",word2);
+        
+    
+    else printf("%s",word1);
+        
 
 }
